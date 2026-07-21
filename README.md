@@ -8,6 +8,7 @@ It has a lot of files. I'm sorry.
 
 Download the source code or clone the repo. 
 Individually compile the match.c, rank.c, and optionally simulator.c and advancedsimulator.c. I recommend the executable names match, rank, sim, and advancedsim respectively for each file, as that's how I'll refer to them here.
+* Compilation is not actually necessary as the entire repo comes with the compilated files. However, if you change things like the simulator engine it's highly likely you'll have to recompile.
 
 To load a match:
 ./match winningTeam losingTeam matchType drawOrNot
@@ -33,6 +34,8 @@ To simulate a match:
 ./sim teamA teamB
 example: ./sim Brazil Norway
 advancedsim example: ./advancedsim Brazil Norway
+
+Want to change the elo math? From the simulate.h library you will find two other functions that you can substitute in for simulate() in the match.c file!
 
 Need help? 
 ./help
