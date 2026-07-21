@@ -2,6 +2,7 @@
 A ranking system for international sports. 
 
 Here's a simple C-based international sports ranking, based on the FIFA calculation formula but also includes built-in chess elo and a simple simulation method in the simulate.h library. 
+It has a lot of files. I'm sorry.
 
 # Get started
 
@@ -39,4 +40,6 @@ Or refer to this readme.
 
 Is your team not here? Fork it. That's why this is released with the MIT license. 
 This is very simple code, and it was a daylong project for me. However, it does work but if anyone wants to improve it and build onto it, please do!
+
+NO AI was used making this apart from initializing all of the 211 plain text files with a 0 for elo
 
