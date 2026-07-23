@@ -15,6 +15,7 @@ To load a match:
 
 example: ./match Brazil Norway round regular
 draw example: ./match Spain Cape_Verde group draw
+penalties example: ./match Switzerland Colombia round penalties
 
 Types of matches: 
 Friendly outside main season: outFriendly
